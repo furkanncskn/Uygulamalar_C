@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class - Hedef Nabız Hesapl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class - Hasta Saglik Kayit", "Class - Hasta Saglik Kayit\Class - Hasta Saglik Kayit.vcxproj", "{5A671398-560C-4AB7-936A-702AFD4E846F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kontrol Yapilari - Sifreleme", "Kontrol Yapilari - Sifreleme\Kontrol Yapilari - Sifreleme.vcxproj", "{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5A671398-560C-4AB7-936A-702AFD4E846F}.Release|x64.Build.0 = Release|x64
 		{5A671398-560C-4AB7-936A-702AFD4E846F}.Release|x86.ActiveCfg = Release|Win32
 		{5A671398-560C-4AB7-936A-702AFD4E846F}.Release|x86.Build.0 = Release|Win32
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Debug|x64.ActiveCfg = Debug|x64
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Debug|x64.Build.0 = Debug|x64
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Debug|x86.Build.0 = Debug|Win32
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Release|x64.ActiveCfg = Release|x64
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Release|x64.Build.0 = Release|x64
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Release|x86.ActiveCfg = Release|Win32
+		{B01AA51D-EFA8-4F80-9ADF-BA2BB4A802C4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
