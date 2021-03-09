@@ -12,6 +12,10 @@ sifreCoz::sifreCoz(double gelenBirinci,double gelenIkinci,double gelenUcuncu,dou
 	printMesajSifrele();
 }
 
+sifreCoz::~sifreCoz() {
+	cout << this << "-- > Destructor cagirildi!" << endl;
+}
+
 void sifreCoz::setBirinciBasamak(double gelenBirinci) {
 	gelenBirinciBasamak = (gelenBirinci * 10) - 7;
 }
@@ -57,4 +61,5 @@ void sifreCoz::cozSifre() {
 void sifreCoz::printMesajSifrele() {
 	cout << "Gelen mesaj: " << gelenDorduncuBasamak << gelenUcuncuBasamak
 		<< gelenIkinciBasamak << gelenBirinciBasamak << endl;
+	cout << "------------------------------------------------------------" << endl;
 }

@@ -13,6 +13,10 @@ mesajSifrele::mesajSifrele(unsigned int mesaj) {
 	printMesajSifrele();
 }
 
+mesajSifrele::~mesajSifrele() {
+	cout << this << "-- > Destructor cagirildi!" << endl;
+}
+
 void mesajSifrele::setBirinciBasamak(unsigned int mesaj) {
 	birinciBasamak = mesaj % 10;
 }
@@ -66,5 +70,5 @@ void mesajSifrele::printMesajSifrele() {
 		<< "\t\t\tIkinci Basamak: " << getIkinciBasamak() << endl
 		<< "\t\t\tUcuncu Basamak: " << getUcuncuBasamak() << endl
 		<< "\t\t\tDorduncu Basamak: " << getDorduncuBasamak() << endl;
-	cout << "--------------------------------------------------------" << endl;
+	cout << "------------------------------------------------------------" << endl;
 }

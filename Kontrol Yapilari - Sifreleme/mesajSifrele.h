@@ -10,6 +10,7 @@ private:
 	double dorduncuBasamak;
 public:
 	mesajSifrele(unsigned int);
+	~mesajSifrele();
 	void setBirinciBasamak(unsigned int);
 	void setIkinciBasamak(unsigned int);
 	void setUcuncuBasamak(unsigned int);

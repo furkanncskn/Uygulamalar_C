@@ -10,6 +10,7 @@ private:
 	double gelenDorduncuBasamak;
 public:
 	sifreCoz(double,double,double,double);
+	~sifreCoz();
 	void setBirinciBasamak(double);
 	void setIkinciBasamak(double);
 	void setUcuncuBasamak(double);
