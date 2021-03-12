@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kontrol Yapilari - Sifrelem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kontrol Yapilari - Dunya Nufus Artisi", "Kontrol Yapilari - Dunya Nufus Artisi\Kontrol Yapilari - Dunya Nufus Artisi.vcxproj", "{2FB62A48-1DCB-4C14-91FD-A9562A9CA4B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fonksiyonlar - Hanoi Kuleleri", "Fonksiyonlar - Hanoi Kuleleri\Fonksiyonlar - Hanoi Kuleleri.vcxproj", "{0094C04A-2F58-4783-81AA-601F80824008}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fonksiyonlar - Bilgisiyar Destekli Egitim", "Fonksiyonlar - Bilgisiyar Destekli Egitim\Fonksiyonlar - Bilgisiyar Destekli Egitim.vcxproj", "{C93D4EE9-DB3F-4539-8028-287C2EE17B87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{2FB62A48-1DCB-4C14-91FD-A9562A9CA4B5}.Release|x64.Build.0 = Release|x64
 		{2FB62A48-1DCB-4C14-91FD-A9562A9CA4B5}.Release|x86.ActiveCfg = Release|Win32
 		{2FB62A48-1DCB-4C14-91FD-A9562A9CA4B5}.Release|x86.Build.0 = Release|Win32
+		{0094C04A-2F58-4783-81AA-601F80824008}.Debug|x64.ActiveCfg = Debug|x64
+		{0094C04A-2F58-4783-81AA-601F80824008}.Debug|x64.Build.0 = Debug|x64
+		{0094C04A-2F58-4783-81AA-601F80824008}.Debug|x86.ActiveCfg = Debug|Win32
+		{0094C04A-2F58-4783-81AA-601F80824008}.Debug|x86.Build.0 = Debug|Win32
+		{0094C04A-2F58-4783-81AA-601F80824008}.Release|x64.ActiveCfg = Release|x64
+		{0094C04A-2F58-4783-81AA-601F80824008}.Release|x64.Build.0 = Release|x64
+		{0094C04A-2F58-4783-81AA-601F80824008}.Release|x86.ActiveCfg = Release|Win32
+		{0094C04A-2F58-4783-81AA-601F80824008}.Release|x86.Build.0 = Release|Win32
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Debug|x64.ActiveCfg = Debug|x64
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Debug|x64.Build.0 = Debug|x64
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Debug|x86.ActiveCfg = Debug|Win32
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Debug|x86.Build.0 = Debug|Win32
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Release|x64.ActiveCfg = Release|x64
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Release|x64.Build.0 = Release|x64
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Release|x86.ActiveCfg = Release|Win32
+		{C93D4EE9-DB3F-4539-8028-287C2EE17B87}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

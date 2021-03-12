@@ -3,18 +3,17 @@
 
 class nufusArtis {
 private:
-	static int artis;
-	static unsigned int guncelNufus;
-	static unsigned int guncelYil;
-	static unsigned int beklenenArtis;
-	static double artisOrani;
+	int artis=0;
+	double guncelNufus;
+	unsigned int guncelYil;
+	double beklenenArtis=0;
 public:
-	nufusArtis(unsigned int, unsigned int);
+	nufusArtis(double, unsigned int);
 	~nufusArtis();
-	void setYillikDunyaNufus(unsigned int);
+	void setYillikDunyaNufus(double);
 	void setYil(unsigned int);
-	void setBeklenenYillikArtis(unsigned int);
-	unsigned int getYillikDunyaNufus() const;
+	void setBeklenenYillikArtis(double);
+	double getYillikDunyaNufus() const;
 	unsigned int getYil() const;
 	double getBeklenenYillikArtis() const;
 	void printNufusArtis();

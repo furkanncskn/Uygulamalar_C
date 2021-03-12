@@ -1,10 +1,12 @@
 #include <iostream>
 #include "NufusArtis.h"
+#include <sstream> 
 
 using namespace std;
 
-void main() {
+int main() {
 
-	nufusArtis nufusArtis(5000000000,2021);
+	nufusArtis nufusArtis1(100000, 2021);
+	nufusArtis nufusArtis2(5000000000, 2021);
 
 }
